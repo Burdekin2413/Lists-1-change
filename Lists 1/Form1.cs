@@ -53,6 +53,9 @@ namespace Lists_1
             ints.Add(9);
             ints.Add(10);
             printNums(ints);
+            ints.Remove(1);
+            ints.Add(1);
+            printNums(ints);
         }
     }
 }
